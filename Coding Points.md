@@ -215,3 +215,115 @@
     }
 ```
 ## Commonly Used Algorithm/Data Structure Details
+1. The key point of the binary search is not find a target, but to short the search size of a given array/list, thus we can find the first/last element of the new   part.
+Ex:      OOOOO **OX** XXXXX  => we need to find the **O** or **X**
+2. Don’t use recursion while you will recursive to a deep depth  => stack over flow
+3. ArrayList == List in C#: the size of the arraylist is very small(S) when initialized, however, when we add more and more elements into it, the arraylist will automatically be larger(S.2^n).
+4. the reason we do not have to use trinary search/fournary search….=> Log2(N) == Log3(N) == Log4(N) == …, just like N == 2N == 3N == …
+5. PriorityQueue is a binary tree
+6. Difference between Select and Where
+Select: similar to select in sql
+Where:filter, also similar to sql
+7. as long as we have the shift process(for ex: [1,2,3,5,6] -> [1,2,3,4,5,6], 5 and 6 are shifted), the time complexity is O(n).
+8. LinkedList does not support the binary search.
+9. remove duplicated: Don’t need to define some function to eliminate the duplicated parts, instead, you can move the pointers while in the loop to avoid the duplicated parts => one of the two pointers useage
+10. Difference between graph and binary tree:
+</br>Graph: all nodes can finally formalize a loop.
+</br>Tree: all nodes can **NOT** formalize a loop.
+11. Difference between stack over flow and out of memorization:
+</br>stack over flow: is related to stack.
+</br>out of memorization: is related to Heap    
+</br>https://stackoverflow.com/questions/11435613/whats-the-difference-between-stackoverflowerror-and-outofmemoryerror
+12. BFS Usages:
+</br>.Level Order Traverse 
+</br>.Connected Components 
+</br>.Topological Sorting
+</br>.Shortest Path in a simple graph
+13. For Simple graph: if we know the start point and the target Point,then we can use two BFS(one start from the start point, the other is from the end point) to solve.
+</br>One BFS: O(N)  => two BFS: o(N ^ 1/2)
+14. BFS template: Queue and HashSet should always be together, DO NOT SEPERARATE THEM!!!!
+15. Serialization : object to string / Deserialization: string to object  => Ex: Json/XML 
+16. Pure Function/Component: a function/component whose output parameter is only related to the input parameters.(a front end terminology)
+17. Binary Tree validation: 
+</br>if(root == null) => must be considered.
+</br>As for root.left/root.right  => depend on the certain question, not exactly needed
+18. the inorder traverse of a BST is a non-descending order sequence. However, if the inorder traverse of a binary tree is a 
+non-descending order sequence, it not always a BST.
+```
+Ex:     1
+      1   1
+```
+19. space complexity for a BFS: the maximum count of node in one Level.
+20. Usually DFS cause less space than BFS(in most cases).
+21. Recursion: 定义/解析/出口
+22. what is DFS: use recursion to realize multiple loops.
+23. divide and conquer: cut from the middle, apply same process to both side.
+24. Jagged Array int[][]: (the size of each single array in it) is not fixed. 
+    </br>Two dimensional array int[,]: …………fixed.
+25. Heap: O(logN)Add/O(logN)Remove/O(1)Min or Max
+   </br>Remove function in PriorityQueue is O(N), however, in Heap it is O(logN)
+   </br>Heapify: O(N)
+   </br>Traverse a Heap O(NLogN), which is exactly the HeapSort(in ascending order)
+26. For Recursion: 
+   </br>I. When in doubt, write down the recurrence relationship.
+   </br>II. Whenever possible, apply memoization.
+27. Property is faster than Method   =>  ex: S.Count is faster than S.Count();
+28. Always remember: BFS => 3 level loop!!! + memorization(bool[][]).
+29. **Primitive types** => the most basic type/only value no reference address/can be used in HashSet.Contains() and Dictionary.ContainsKey()
+</br>ex: string,int,char => all in lower case
+</br>**Reference types**: value with reference address/can not be used in ………
+</br>ex: String,List<int>,IList<char>…… => all in upper case
+30. Google Q1:   
+```C#
+   public static void GetAllPath_DFS_Template(String[] args)
+   {
+      int m = 2, n = 3;
+      int[,] mat = { { 1, 2, 3 },
+      int maxLengthOfPath = m + n − 1;
+      printMatrix(mat, m, n, 0, 0, new int[maxLengthOfPath], 0);
+   }
+   private static void printMatrix(int[,] mat, int m, int n,int i, int j, int[] path, int idx)
+   {
+      path[idx] = mat[i, j];
+      // Reached the bottom and the only option to move right
+      if (i == m - 1)
+      {
+         for (int k = j + 1; k < n; k++)
+         {
+            path[idx + k - j] = mat[i,k];
+         }
+
+         for (int 1 = 0; 1 ‹ idx + n − j; 1++)
+         {
+            Console.Write(path[1] + ");
+         }
+         Console.WriteLine();
+         return;
+      }
+      //Reached the right and only option is to move down. 
+      if (j == n − 1)
+      {
+         for (int k = i + 1; k < m; k++)
+         {
+            path[idx + k - i] = mat[k, j];
+         }
+         for (int 1 = 0; 1 < idx + m - i; 1++)
+         {
+            Console.Write(path[1] + " ");
+         }
+         Console.WriteLine();
+         return;
+      }
+      printMatrix(mat, m, n, i + 1, j, path,idx + 1); 
+      printMatrix(mat, m, n, i, j + 1, path, idx + 1);
+   }
+```
+
+   
+    
+
+
+
+
+
+
