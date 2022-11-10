@@ -273,7 +273,10 @@ Ex:     1
 </br>ex: string,int,char => all in lower case
 </br>**Reference types**: value with reference address/can not be used in ………
 </br>ex: String,List<int>,IList<char>…… => all in upper case
-30. Google Q1:   
+30. n^3 => n to the power of 3 
+   </br>n! => factorial of n
+31. if the question required to % 1000000007 => this is a DP question.
+32. Google Q1:   
 ```C#
    public static void GetAllPath_DFS_Template(String[] args)
    {
