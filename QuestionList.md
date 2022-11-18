@@ -1,6 +1,7 @@
 # Question List
 ## String
 ## HashMap
+1.Two Sum https://leetcode.com/problems/two-sum/
 ## Heap
 ## Tree
 ## Stack
