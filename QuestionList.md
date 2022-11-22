@@ -2,6 +2,7 @@
 ## String
 ## HashMap
 1.Two Sum (E,E,E) https://leetcode.com/problems/two-sum/  
+13.Roman to Integer (E,E+,E) https://leetcode.com/problems/roman-to-integer/
 ## Heap
 ## Tree
 ## Stack
@@ -9,6 +10,7 @@
 2.Add Two Numbers (M-,E,E) https://leetcode.com/problems/add-two-numbers/
 ## Binary Search
 ## Two Pointers
+11.Container With Most Water(E,M-,E) https://leetcode.com/problems/container-with-most-water/
 ## Sliding Window
 3.Longest Substring Without Repeating Characters (E,M-,E) https://leetcode.com/problems/longest-substring-without-repeating-characters/
 ## Recursion
