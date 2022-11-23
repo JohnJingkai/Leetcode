@@ -46,6 +46,7 @@
  sb.Remove(sb.Length - 1,1);//remove a string from the specified index and up to the specified length.
  
  string s = new string();
+ s.LastIndexOf(...);/s.IndexOf(...);  //... is a char
  s.ToLower();s.ToUpper();
  s.Trim();
  (s[i] > 'a' && s[i] < 'z') || (s[i] > '0' && s[i] < '9') // Printable ASCII character
