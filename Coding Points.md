@@ -56,6 +56,7 @@
  string.split(); //returns a string array
  string authorName = bio.Substring(0, 12); // Get first 12 characters substring from index 0; 
  string authorBio = bio.Substring(12);  // Get everything else after 12th position (start from 1st position which is index 0) 
+ string word = s.Substring(i,j - i + 1);//i and j are the start and end index
 
  
  
