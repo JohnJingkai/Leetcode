@@ -278,7 +278,9 @@ Ex:     1
 30. n^3 => n to the power of 3 
    </br>n! => factorial of n
 31. if the question required to % 1000000007 => this is a DP question.
-32. Google Q1:   
+32. different modifiers in C# </br>
+   ![image](https://user-images.githubusercontent.com/114701495/205345827-fa3ee643-d26a-4ba2-9567-e49ee3d3dd26.png)
+33. Google Q1:   
 ```C#
    public static void GetAllPath_DFS_Template(String[] args)
    {
