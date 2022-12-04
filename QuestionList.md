@@ -10,6 +10,7 @@
 ## Linked List
 2.Add Two Numbers (M-,E,E) https://leetcode.com/problems/add-two-numbers/ <br>
 ## Binary Search
+33.Search in Rotated Sorted Array (E+,M,M-) https://leetcode.com/problems/search-in-rotated-sorted-array/
 ## Two Pointers
 11.Container With Most Water (E,M-,E) https://leetcode.com/problems/container-with-most-water/ <br>
 15.3Sum (E,M-,M)  https://leetcode.com/problems/3sum/ <br>
@@ -18,6 +19,7 @@
 21.Merge Two Sorted Lists (E,E,E) https://leetcode.com/problems/merge-two-sorted-lists/ <br>
 26.Remove Duplicates from Sorted Array (M,M-,E) https://leetcode.com/problems/remove-duplicates-from-sorted-array/ <br>
 27.Remove Element (M,M-,E) https://leetcode.com/problems/remove-element/ <br>
+28.Find the Index of the First Occurrence in a String(E,E,M-) https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/ </br>
 ## Sliding Window
 3.Longest Substring Without Repeating Characters (E,M-,E) https://leetcode.com/problems/longest-substring-without-repeating-characters/ <br>
 ## Recursion
