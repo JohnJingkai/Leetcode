@@ -1,4 +1,4 @@
-# Question List(Question Description,Algorithm,Edge cases)  
+# Question List(Question Description,Algorithm,Edge cases)  46
 ## String
 ## HashMap
 1.Two Sum (E,E,E) https://leetcode.com/problems/two-sum/  <br>
