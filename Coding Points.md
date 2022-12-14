@@ -70,7 +70,11 @@
  string[] animals = { "Cow", "Camel", "Elephant" };
  List<string> animalsList = new List<string>(animals);//array => list
  
- 
+ //SortedList
+ SortedList<int, int> sl = new SortedList<int, int>();
+ sl.Add(6, 20);
+ int a = sl.Keys[0];
+ int b = sl.Values[0];
  //Int
  Int32.MaxValue/Int32.MinValue
  
