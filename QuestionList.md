@@ -1,8 +1,8 @@
 # Question List(Question Description,Algorithm,Edge cases)  46
 ## String
 ## HashMap
-1.Two Sum (E,E,E) https://leetcode.com/problems/two-sum/  <br>
-13.Roman to Integer (E,E+,E) https://leetcode.com/problems/roman-to-integer/ <br>
+1.[Two Sum](https://leetcode.com/problems/two-sum/) (E,E,E)   <br>
+13.[Roman to Integer](https://leetcode.com/problems/roman-to-integer/) (E,E+,E)  <br>
 ## Heap
 ## Tree
 ## Stack(Include MonoStack)
