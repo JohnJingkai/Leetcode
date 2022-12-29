@@ -39,10 +39,9 @@
  
  //String StringBuilder
  StringBuilder sb = new StringBuilder();
- sb.Append("Hello");
- sb.Append('a');
+ sb.Append("Hello");//add at last
  sb.Insert(5,"CACVD"); //inserts a string/char at the specified index in the StringBuilder object.
- sb.Insert(5,'a');
+ sb.Insert(0,'a');//insert at front
  sb.Remove(sb.Length - 1,1);//remove a string from the specified index and up to the specified length.
  
  string s = new string();
@@ -53,7 +52,7 @@
  "abc" == "abc" //value equal
  s.Equals(s); //object equal
  new string(c); //charArray to string
- string.split(); //returns a string array
+ string[] paths = path.Split('/'); //returns a STRING array,not a char array
  string authorName = bio.Substring(0, 12); // Get first 12 characters substring from index 0; 
  string authorBio = bio.Substring(12);  // Get everything else after 12th position (start from 1st position which is index 0) 
  string word = s.Substring(i,j - i + 1);//i and j are the start and end index
