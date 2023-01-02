@@ -1,4 +1,4 @@
-# Question List(Question Description,Algorithm,Edge cases)  47
+# Question List(Question Description,Algorithm,Edge cases)  
 ## String
 ## HashMap
 1.[Two Sum](https://leetcode.com/problems/two-sum/) (E,E,E)   <br>
@@ -26,6 +26,7 @@
 3.[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/ ) (E,M-,E) <br>
 ## Recursion
 24.[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) (E,M,E)  <br>
+50.[Pow(x, n)](https://leetcode.com/problems/powx-n/) (E,M,M)<br>
 ## Divide and Conquer
 4.[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/) (E,H,E)  <br>
 ## BFS
@@ -39,7 +40,10 @@
 22.[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) (E,M+,E)  <br>
 39.[Combination Sum](https://leetcode.com/problems/combination-sum/) (M-,M+,E+) <br>
 46.[Permutations](https://leetcode.com/problems/permutations/) (E,M,E) <br>
+47.[Permutations II](https://leetcode.com/problems/permutations-ii/) (M-,M+,M) <br>
 ## Others
 7.[Reverse Integer](https://leetcode.com/problems/reverse-integer/) (E,E,M)  <br>
 14.[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/ ) (E,E,E) <br>
+## Sort
+49.[Group Anagrams](https://leetcode.com/problems/group-anagrams/) (E,M-,M) <br>
 
