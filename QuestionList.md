@@ -38,6 +38,7 @@
 17.[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) (E,M,E)  <br>
 22.[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) (E,M+,E)  <br>
 39.[Combination Sum](https://leetcode.com/problems/combination-sum/) (M-,M+,E+) 
+46.[Permutations] (https://leetcode.com/problems/permutations/)(E,M,E)
 ## Others
 7.[Reverse Integer](https://leetcode.com/problems/reverse-integer/) (E,E,M)  <br>
 14.[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/ ) (E,E,E) <br>
